@@ -8,6 +8,12 @@
 </head>
 <body>
   <h1>Conlang Translator</h1>
+  <select id="languageSelect" onchange="loadDictionary()">
+    <option value="language1">Language 1</option>
+    <option value="language2">Language 2</option>
+    <option value="language3">Language 3</option>
+    <!-- Add more languages as needed -->
+  </select>
   <textarea id="inputText" placeholder="Enter text..."></textarea>
   <button onclick="translate()">Translate</button>
   <textarea id="outputText" placeholder="Translation..." readonly></textarea>
